@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam Video Recorder with Audio</title>
+</head>
+<body>
+    <button id="startRecording">Start Recording</button>
+    <button id="stopRecording" disabled>Stop Recording</button>
+    <video id="recordedVideo" controls></video>
+
+    <script>
+        let mediaRecorder;
+        let recordedChunks = [];
+        const startRecordingButton = document.getElementById('startRecording');
+        const stopRecordingButton = document.getElementById('stopRecording');
+        const recordedVideoElement = document.getElementById('recordedVideo');
+
+        startRecordingButton.addEventListener('click', startRecording);
+        stopRecordingButton.addEventListener('click', stopRecording);
+
+        async function startRecording() {
+            try {
+                const webcamStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+
+                mediaRecorder = new MediaRecorder(webcamStream);
+                mediaRecorder.ondataavailable = handleDataAvailable;
+                mediaRecorder.onstop = handleStop;
+
+                recordedChunks = [];
+                mediaRecorder.start();
+
+                startRecordingButton.disabled = true;
+                stopRecordingButton.disabled = false;
+            } catch (error) {
+                console.error("Error accessing webcam:", error);
+            }
+        }
+
+        function handleDataAvailable(event) {
+            if (event.data.size > 0) {
+                recordedChunks.push(event.data);
+            }
+        }
+
+        function handleStop() {
+            const recordedBlob = new Blob(recordedChunks, { type: 'video/webm' });
+            const recordedUrl = URL.createObjectURL(recordedBlob);
+
+            recordedVideoElement.src = recordedUrl;
+
+            startRecordingButton.disabled = false;
+            stopRecordingButton.disabled = true;
+        }
+
+        function stopRecording() {
+            if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+                mediaRecorder.stop();
+            }
+        }
+    </script>
+</body>
+</html>

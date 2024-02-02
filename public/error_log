@@ -1,0 +1,52 @@
+[19-Sep-2023 11:09:03 America/Chicago] PHP Warning:  require(/home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/../../app/Helpers/Helper.php): Failed to open stream: No such file or directory in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php on line 41
+[19-Sep-2023 11:09:03 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/../../app/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php(45): {closure}('8fde5feda9697fe...', '/home4/hexation...')
+#1 /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/autoload.php(25): ComposerAutoloaderInitaaf47d4a592e491d47528f95acfdf40d::getLoader()
+#2 /home4/hexation/hexatech/dentally.hexatechsolution.com/public/index.php(34): require('/home4/hexation...')
+#3 {main}
+  thrown in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php on line 41
+[19-Sep-2023 11:09:52 America/Chicago] PHP Warning:  require(/home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/../../app/Helpers/Helper.php): Failed to open stream: No such file or directory in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php on line 41
+[19-Sep-2023 11:09:52 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/../../app/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php(45): {closure}('8fde5feda9697fe...', '/home4/hexation...')
+#1 /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/autoload.php(25): ComposerAutoloaderInitaaf47d4a592e491d47528f95acfdf40d::getLoader()
+#2 /home4/hexation/hexatech/dentally.hexatechsolution.com/public/index.php(34): require('/home4/hexation...')
+#3 {main}
+  thrown in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php on line 41
+[19-Sep-2023 11:09:53 America/Chicago] PHP Warning:  require(/home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/../../app/Helpers/Helper.php): Failed to open stream: No such file or directory in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php on line 41
+[19-Sep-2023 11:09:53 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/../../app/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php(45): {closure}('8fde5feda9697fe...', '/home4/hexation...')
+#1 /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/autoload.php(25): ComposerAutoloaderInitaaf47d4a592e491d47528f95acfdf40d::getLoader()
+#2 /home4/hexation/hexatech/dentally.hexatechsolution.com/public/index.php(34): require('/home4/hexation...')
+#3 {main}
+  thrown in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php on line 41
+[19-Sep-2023 11:10:08 America/Chicago] PHP Warning:  require(/home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/../../app/Helpers/Helper.php): Failed to open stream: No such file or directory in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php on line 41
+[19-Sep-2023 11:10:08 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/../../app/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php(45): {closure}('8fde5feda9697fe...', '/home4/hexation...')
+#1 /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/autoload.php(25): ComposerAutoloaderInitaaf47d4a592e491d47528f95acfdf40d::getLoader()
+#2 /home4/hexation/hexatech/dentally.hexatechsolution.com/public/index.php(34): require('/home4/hexation...')
+#3 {main}
+  thrown in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php on line 41
+[19-Sep-2023 11:11:26 America/Chicago] PHP Warning:  require(/home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/../../app/Helpers/Helper.php): Failed to open stream: No such file or directory in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php on line 41
+[19-Sep-2023 11:11:26 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/../../app/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php(45): {closure}('8fde5feda9697fe...', '/home4/hexation...')
+#1 /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/autoload.php(25): ComposerAutoloaderInitaaf47d4a592e491d47528f95acfdf40d::getLoader()
+#2 /home4/hexation/hexatech/dentally.hexatechsolution.com/public/index.php(34): require('/home4/hexation...')
+#3 {main}
+  thrown in /home4/hexation/hexatech/dentally.hexatechsolution.com/vendor/composer/autoload_real.php on line 41
+[20-Sep-2023 11:06:43 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:338) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 523
+[20-Sep-2023 11:07:14 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:338) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 523
+[20-Sep-2023 11:07:36 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:338) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 523
+[20-Sep-2023 11:08:41 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:338) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 523
+[20-Sep-2023 11:09:19 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:338) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 523
+[20-Sep-2023 11:10:02 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:339) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 524
+[20-Sep-2023 11:10:59 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:338) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 523
+[20-Sep-2023 11:11:26 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:338) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 523
+[20-Sep-2023 11:12:34 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:262) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 447
+[20-Sep-2023 11:12:41 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:262) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 447
+[20-Sep-2023 11:13:06 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:262) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 447
+[20-Sep-2023 11:13:22 America/Chicago] PHP Fatal error:  Cannot redeclare ghl_api_call() (previously declared in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php:262) in /home4/hexation/hexatech/dentally.hexatechsolution.com/app/Helpers/Helper.php on line 447

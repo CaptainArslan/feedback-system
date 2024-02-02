@@ -1,0 +1,19 @@
+{
+    "gcm_sender_id": "482941778795",
+    "gcm_sender_id_comment": "Do not change the GCM Sender ID",
+    "name": "Attendance System",
+    "short_name": "AS",
+    "start_url": "/",
+    "background_color": "#6777ef",
+    "description": "A Project of Karate",
+    "display": "fullscreen",
+    "theme_color": "#6777ef",
+    "icons": [
+        {
+            "src": "img/worksuite-logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
